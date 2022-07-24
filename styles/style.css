@@ -1,0 +1,38 @@
+.coustom-style {
+    background-color: #feeae9;
+    padding: 40px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+* {
+    font-family: "Poppis", sans-serif !important;
+}
+
+.coustom-style img {
+    max-width: 410px;
+}
+
+.product-title {
+    color: #ff589b;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.price {
+    color: #ff136f;
+    font-size: 35px;
+    font-weight: 900;
+    margin: -10px 0 30px 0;
+}
+
+.def-button {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 45px;
+}
