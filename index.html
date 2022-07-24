@@ -25,7 +25,7 @@
     <!-- nav start -->
     <header class="bg-light">
         <div class="container">
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar fixed-top navbar-expand-lg bg-light">
                 <div class="container-fluid">
                     <img class="navbar-brand" src="./images/logo.png" alt="" />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,13 +38,13 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Shoes</a>
+                  <a class="nav-link" href="#shoes">Shoes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">BagPacks</a>
+                                <a class="nav-link" href="#bag">BagPacks</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Subscribe</a>
+                                <a class="nav-link" href="#subscribe">Subscribe</a>
                             </li>
                         </ul>
                     </div>
@@ -62,7 +62,7 @@
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active coustom-style">
-                                <div class="d-flex flex-md-row flex-column justify-content-between align-items-center gap-5">
+                                <div class="d-flex flex-lg-row flex-column justify-content-between align-items-center gap-5">
                                     <div class="text">
                                         <div class="content-holder">
                                             <h2 class="product-title">Mega LCD TV For Sports</h2>
@@ -79,7 +79,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item coustom-style">
-                                <div class="d-flex flex-md-row flex-column justify-content-between align-items-center gap-5">
+                                <div class="d-flex flex-lg-row flex-column justify-content-between align-items-center gap-5">
                                     <div class="text">
                                         <div class="content-holder">
                                             <h2 class="product-title">Cool Dude Headphone</h2>
@@ -96,7 +96,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item coustom-style">
-                                <div class="d-flex flex-md-row flex-column justify-content-between align-items-center gap-5">
+                                <div class="d-flex flex-lg-row flex-column justify-content-between align-items-center gap-5">
                                     <div class="text">
                                         <div class="content-holder">
                                             <h2 class="product-title">
@@ -134,6 +134,142 @@
             </div>
         </div>
     </section>
+    <!-- catagory start -->
+    <main>
+        <div class="container my-5">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <a href="#" class="parent d-flex justify-content-between align-items-center p-4 rounded-3 bg-warning text-decoration-none">
+                        <h1 class="cat-name">Watch</h1>
+                        <img class="img-fluid cat-img" src="./images/categories/watch.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#bag" class="parent d-flex justify-content-between align-items-center p-4 rounded-3 cat-active text-decoration-none">
+                        <h1 class="cat-name">Bag</h1>
+                        <img class="img-fluid cat-img" src="./images/categories/bag.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#shoes" class="parent d-flex justify-content-between align-items-center p-4 rounded-3 bg-primary text-decoration-none">
+                        <h1 class="cat-name">Shoes</h1>
+                        <img class="img-fluid cat-img" src="./images/categories/shoes.png" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- catagory end -->
+
+    <!-- shoe section start -->
+    <section id="shoes">
+        <div class="container">
+            <h2 class="section-heading">Shoes</h2>
+
+            <div class="row g-4 my-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card shadow-lg rounded-2 p-5">
+                        <img src="./images/shoes/shoe-1.png" alt="" class="product-image img-fluid" />
+                        <h1 class="product-name">Supply 350</h1>
+                        <p class="product-description">
+                            This is a longer card with supporting text below as a natural lead-in to additional.
+                        </p>
+                        <h2 class="product-price mb-5">$320</h2>
+                        <a href="#" class="def-button rounded-pill">Buy Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card shadow-lg rounded-2 p-5">
+                        <img src="./images/shoes/shoe-3.png" alt="" class="product-image img-fluid" />
+                        <h1 class="product-name">Nike 360</h1>
+                        <p class="product-description">
+                            This is a longer card with supporting text below as a natural lead-in to additional.
+                        </p>
+                        <h2 class="product-price mb-5">$510</h2>
+                        <a href="#" class="def-button rounded-pill">Buy Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card shadow-lg rounded-2 p-5 product-card-active">
+                        <img src="./images/shoes/shoe-2.png" alt="" class="product-image img-fluid" />
+                        <h1 class="product-name">Red Airmax</h1>
+                        <p class="product-description">
+                            This is a longer card with supporting text below as a natural lead-in to additional.
+                        </p>
+                        <h2 class="product-price mb-5">$320</h2>
+                        <a href="#" class="def-button rounded-pill">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shoe section end -->
+    <!--  bag section start -->
+    <section id="bag">
+        <div class="container">
+            <h2 class="section-heading">Bags</h2>
+
+            <div class="row g-4 my-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card shadow-lg rounded-2 p-5">
+                        <img src="./images/bags/bag-2.png" alt="" class="product-image img-fluid" />
+                        <h1 class="product-name">Coach</h1>
+                        <p class="product-description">
+                            This is a longer card with supporting text below as a natural lead-in to additional.
+                        </p>
+                        <h2 class="product-price mb-5">$520</h2>
+                        <a href="#" class="def-button rounded-pill">Buy Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card shadow-lg rounded-2 p-5 product-card-active">
+                        <img src="./images/bags/bag-1.png" alt="" class="product-image img-fluid" />
+                        <h1 class="product-name">Calvin Klein</h1>
+                        <p class="product-description">
+                            This is a longer card with supporting text below as a natural lead-in to additional.
+                        </p>
+                        <h2 class="product-price mb-5">$1510</h2>
+                        <a href="#" class="def-button rounded-pill">Buy Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card shadow-lg rounded-2 p-5">
+                        <img src="./images/bags/bag-3.png" alt="" class="product-image img-fluid" />
+                        <h1 class="product-name">Brighton</h1>
+                        <p class="product-description">
+                            This is a longer card with supporting text below as a natural lead-in to additional.
+                        </p>
+                        <h2 class="product-price mb-5">$820</h2>
+                        <a href="#" class="def-button rounded-pill">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bag section end -->
+
+    <!-- contact section start -->
+    <section id="subscribe">
+        <div class="container my-5">
+            <div class="holder rounded-3 p-5 d-flex justify-content-center align-items-center">
+                <div class="">
+                    <h2>Lets stay in touch</h2>
+                    <p class="muted">Get updates on sales, specials and more</p>
+                    <form action="#">
+                        <input class="input" type="text" placeholder="Enter you Email" />
+                        <button class="def-button little-small">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="mt-5 lead text-center" style="font-size: 14px">
+            ©2020. Panda Commerce. All rights reserved Ariyan Shihab.
+        </p>
+    </footer>
+    <!-- contact section send -->
+
     <!-- bottstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
